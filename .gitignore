@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Experiment outputs and model artifacts
+runs/
+*.pt
+*.pth
+*.joblib
+*.pkl
+*.npy
+
+# Feature tables are not redistributed (see data/README.md); manifests and partitions are.
+data/*.csv
+data/*.csv.gz
+!data/manifests/
+!data/partitions/

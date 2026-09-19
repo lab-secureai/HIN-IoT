@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "HIN-IoT"
+repository-code: "https://github.com/lab-secureai/HIN-IoT"
+license: Apache-2.0
+authors:
+  - family-names: Tran
+    given-names: Dac-Tot
+  - family-names: Tran
+    given-names: Anh-Tu
+  - family-names: Nguyen-An
+    given-names: Khuong
+  - family-names: Luong
+    given-names: The-Dung
+preferred-citation:
+  type: article
+  title: "Cross-Architecture IoT Malware Detection under Temporal Shift via Heterogeneous Information Networks"
+  authors:
+    - family-names: Tran
+      given-names: Dac-Tot
+    - family-names: Tran
+      given-names: Anh-Tu
+    - family-names: Nguyen-An
+      given-names: Khuong
+    - family-names: Luong
+      given-names: The-Dung
+  journal: "Journal of Information Security and Applications (submitted)"
+  year: 2026
