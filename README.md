@@ -1,6 +1,6 @@
 # HIN-IoT
 
-Code for the paper **"Cross-Architecture IoT Malware Detection under Temporal Shift via Heterogeneous Information Networks"** by Dac-Tot Tran, Anh-Tu Tran, Khuong Nguyen-An and The-Dung Luong (submitted to the *Journal of Information Security and Applications*).
+Code for the paper **"Cross-Architecture IoT Malware Detection under Temporal Shift via Heterogeneous Information Networks"** by Dac-Tot Tran, Anh-Tu Tran, Khuong Nguyen-An and The-Dung Luong.
 
 ELF executables, the runtime APIs they invoke, and their CPU architectures are modelled as a heterogeneous information network (HIN). File nodes carry static numerical features, opcode TF-IDF and numerical runtime counters. APIs and architectures enter only through typed relations (`file –calls→ api`, `file –runs_on→ arch`). The main encoder is **Residual Heterogeneous GraphSAGE (RH-SAGE)**. It is compared with static, dynamic, static–dynamic fusion, homogeneous-graph and six other heterogeneous encoders under four protocols:
 
