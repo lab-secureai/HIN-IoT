@@ -1,6 +1,6 @@
 # HIN-IoT
 
-Code for the paper **"Cross-Architecture IoT Malware Detection under Temporal Shift via Heterogeneous Information Networks"** by Dac-Tot Tran, Anh-Tu Tran, Khuong Nguyen-An and The-Dung Luong.
+Code for the paper **"Cross-Architecture IoT Malware Detection under Temporal Shift via Heterogeneous Information Networks"** 
 
 ELF executables, the runtime APIs they invoke, and their CPU architectures are modelled as a heterogeneous information network (HIN). File nodes carry static numerical features, opcode TF-IDF and numerical runtime counters. APIs and architectures enter only through typed relations (`file –calls→ api`, `file –runs_on→ arch`). The main encoder is **Residual Heterogeneous GraphSAGE (RH-SAGE)**. It is compared with static, dynamic, static–dynamic fusion, homogeneous-graph and six other heterogeneous encoders under four protocols:
 
@@ -121,21 +121,8 @@ Per-protocol details are in [`hin_iot/config.py`](hin_iot/config.py) and [docs/R
 
 **Determinism.** Seeds fix the data splits, weight initialization and data order. PyTorch Geometric scatter operations are not bit-deterministic on CUDA, so GPU reruns can differ slightly from the published numbers; CPU runs are deterministic.
 
-## Citation
-
-```bibtex
-@unpublished{tran2026hiniot,
-  title  = {Cross-Architecture IoT Malware Detection under Temporal Shift via Heterogeneous Information Networks},
-  author = {Tran, Dac-Tot and Tran, Anh-Tu and Nguyen-An, Khuong and Luong, The-Dung},
-  note   = {Submitted to the Journal of Information Security and Applications},
-  year   = {2026}
-}
-```
 
 ## License
 
 Apache License 2.0 (see `LICENSE`). The IoTPOT data are subject to the terms of their providers.
 
-## Contact
-
-The-Dung Luong (thedungluong1@gmail.com), Khuong Nguyen-An (nakhuong@hcmut.edu.vn).
